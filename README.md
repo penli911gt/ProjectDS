@@ -27,40 +27,41 @@ git add .`
 Moves files to the staging area, preparing them for a commit. Use git add . to add all files.
 
 # 3. Commit Changes
-`git commit -m "Your message here"
-`
+`git commit -m "Your message here"`
+
 Saves changes to the repository with a descriptive message explaining the updates.
 
 # 4. Push Changes to Remote Repository
-`git push origin <branch-name>
-`
+`git push origin <branch-name>`
+
 Uploads local changes to the remote repository. Ensure the branch name corresponds to your current branch.
 
 # 5. Create and Switch Branches
 `git branch <branch-name>
 git checkout <branch-name>
-git checkout -b <branch-name>
-`
+git checkout -b <branch-name>`
+
 git branch creates a new branch. git checkout switches branches, while git checkout -b creates and switches simultaneously.
 
 # 6. Pull Changes from Remote Repository
-`git pull origin <branch-name>
-`
+`git pull origin <branch-name>`
+
 Fetches changes from the remote repository and integrates them into your current branch.
 
 # 7. Merge Branches
-`git merge <branch-name>
-`
+`git merge <branch-name>`
+
 Combines the specified branch into your current branch.
 
 # 8. Resolve Merge Conflicts
 Manually resolve conflicts in files after Git highlights differences. Use commands like:
+
 `git add <file-name>
-git commit -m "Resolved merge conflict"
-`
+git commit -m "Resolved merge conflict"`
+
 # 9. View Repository Status
-`git status
-`
+`git status`
+
 Displays the current state of your repository, including staged, unstaged, and untracked files.
 
 # 10. Set Remote Repository
