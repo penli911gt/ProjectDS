@@ -1,51 +1,68 @@
-# ProjectDS1: Collaborative Static Website Development
+# Static CV Website – DS1
+A collaborative static website created using HTML & CSS by a team of 4 as part of our DS1 DevOps project.
 
-## Overview
+## Files:
+- accueil.html
+- information.html
+- parcours.html
+- experience.html
+- contact.html
+- couleur.css
 
-This project is a collaborative effort to develop a static website using Git and GitHub. The primary goal is to gain practical experience with version control workflows, branching, merging, and conflict resolution. The website itself will be intentionally simple, focusing on the Git process rather than complex web development.
+## Git Workflow:
+- Branch per feature
+- Pull requests for merges
+- Team reviews for every PR
 
-## Team Members
+##Git Commands Used
+#1. Initialize a Repository
+`git init`
+Creates a new Git repository locally. This is the first step to set up version control.
 
-*   Penli911gt 
-*   Saif9667
-*   Chraki007
-*   Ghayth233
+#2. Add Files to Staging
+`git add <file-name>
+git add .`
+Moves files to the staging area, preparing them for a commit. Use git add . to add all files.
 
-## Project Goals
+#3. Commit Changes
+`git commit -m "Your message here"
+`Saves changes to the repository with a descriptive message explaining the updates.
 
-*   Successfully create and manage branches for different features.
-*   Implement basic HTML and CSS for the website’s structure and styling.
-*   Understand and resolve merge conflicts.
-*   Demonstrate proficiency in Git commands (init, add, commit, push, pull, branch, merge).
-*   Document the entire process.
+#4. Push Changes to Remote Repository
+`git push origin <branch-name>
+`Uploads local changes to the remote repository. Ensure the branch name corresponds to your current branch.
 
-## Technologies Used
+#5. Create and Switch Branches
+`git branch <branch-name>
+git checkout <branch-name>
+git checkout -b <branch-name>
+`git branch creates a new branch. git checkout switches branches, while git checkout -b creates and switches simultaneously.
 
-*   HTML
-*   CSS
-*   Git
-*   GitHub
+#6. Pull Changes from Remote Repository
+`git pull origin <branch-name>
+`Fetches changes from the remote repository and integrates them into your current branch.
 
-## Workflow
+#7. Merge Branches
+`git merge <branch-name>
+`Combines the specified branch into your current branch.
 
-The project follows a branching workflow:
+#8. Resolve Merge Conflicts
+Manually resolve conflicts in files after Git highlights differences. Use commands like:
+`git add <file-name>
+git commit -m "Resolved merge conflict"
+`
+#9. View Repository Status
+`git status
+`Displays the current state of your repository, including staged, unstaged, and untracked files.
 
-1.  Main Branch: The primary branch containing the stable version of the website.
-2.  Feature Branches: Individual branches created for implementing new features or making changes.
-3.  Pull Requests: Used to propose changes from feature branches to the main branch.
+#10. Set Remote Repository
+`git remote add origin <repository-url>
+`Links your local repository to a remote repository hosted on GitHub.
 
-## Key Git Commands
+#11. Clone a Repository
+`git clone <repository-url>
+`Copies a remote repository to your local machine.
 
-Throughout the project, we will be using the following Git commands:
-
-*   `git init`: Initializes a new Git repository.
-*   `git add`: Stages changes for commit.
-*   `git commit`: Records changes to the repository.
-*   `git push`: Uploads local repository content to a remote repository.
-*   `git pull`: Fetches and merges changes from a remote repository.
-*   `git branch`: Creates, lists, or deletes branches.
-*   `git merge`: Joins two or more development histories together.
-
-## Learning Experience
-
-This project is designed to be a learning experience, even if it means deliberately creating merge conflicts to understand how to resolve them. Documentation and communication are key to success.
+#12. List All Branches
+`git branch -a
+`Displays all branches, both local and remote.
