@@ -21,8 +21,8 @@ A collaborative static website created using HTML & CSS by a team of 4 as part o
 Creates a new Git repository locally. This is the first step to set up version control.
 
 # 2. Add Files to Staging
-`git add <file-name>
-git add .`
+`git add <file-name>`
+`git add .`
 
 Moves files to the staging area, preparing them for a commit. Use git add . to add all files.
 
