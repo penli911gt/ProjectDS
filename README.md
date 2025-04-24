@@ -22,6 +22,7 @@ Creates a new Git repository locally. This is the first step to set up version c
 
 # 2. Add Files to Staging
 `git add <file-name>`
+
 `git add .`
 
 Moves files to the staging area, preparing them for a commit. Use git add . to add all files.
@@ -65,16 +66,16 @@ git commit -m "Resolved merge conflict"`
 Displays the current state of your repository, including staged, unstaged, and untracked files.
 
 # 10. Set Remote Repository
-`git remote add origin <repository-url>
-`
+`git remote add origin <repository-url>`
+
 Links your local repository to a remote repository hosted on GitHub.
 
 # 11. Clone a Repository
-`git clone <repository-url>
-`
+`git clone <repository-url>`
+
 Copies a remote repository to your local machine.
 
 # 12. List All Branches
-`git branch -a
-`
+`git branch -a`
+
 Displays all branches, both local and remote.
